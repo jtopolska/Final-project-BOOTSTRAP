@@ -167,6 +167,34 @@ body {
     color: transparent
 }
 
+
+ /* ------- DARK MODE -------- */
+
+.darkMode {
+    /* background-color: #5B5656; */
+    /* background-color: #393E46; */
+    background-color: #233142;
+    /* background-color: #5B5B5B; */
+    /* background-color: #3C4245; */
+}
+
+.accordion-color {
+    /* background-color: #A6A6A4; */
+    /* background-color: #ffc107; */
+    /* background-color: black; */
+    /* background-color: #5C848E; */
+    /* background-color: #4E709D; */
+    /* background-color: #537791; */
+    background-color: #607D8B;
+    color: white;
+}
+
+
+
+
+
+
+
                     /* АДАПТАЦИЯ */
 
 @media all and (max-width: 1500px) {
