@@ -168,28 +168,6 @@ body {
     color: transparent
 }
 
-
- /* ------- DARK MODE -------- */
-
-.darkMode {
-    /* background-color: #5B5656; */
-    /* background-color: #393E46; */
-    background-color: #233142;
-    /* background-color: #5B5B5B; */
-    /* background-color: #3C4245; */
-}
-
-.accordion-color {
-    /* background-color: #A6A6A4; */
-    /* background-color: #ffc107; */
-    /* background-color: black; */
-    /* background-color: #5C848E; */
-    /* background-color: #4E709D; */
-    /* background-color: #537791; */
-    background-color: #607D8B;
-    color: white;
-}
-
 .source {
     font-size: 13px;
     text-align: center;
@@ -200,7 +178,7 @@ body {
 
 
 
-                    /* АДАПТАЦИЯ */
+    /* АДАПТАЦИЯ */
 
 @media all and (max-width: 1500px) {
     /* HEADING */
@@ -345,7 +323,13 @@ body {
 
     /* SUBSCRIBE */
     .btnn {
-        font-size: 18px;
+        font-size: 22px;
+    }
+
+    .subscribe {
+        object-fit: cover;
+        object-position: center;
+        min-height: 150px;
     }
 
     /* FOOTER */
@@ -369,7 +353,7 @@ body {
     }
 
     /* SHOES */
-    .card-title, .price {
+    .card-title, .price, .btnn {
         font-size: 17px;
     }
     .card-text, .dropdown-toggle {
@@ -378,10 +362,14 @@ body {
 
     /* RULES */
     .tvideo {
-        height: 205px;
+        height: 320px;
     }
     .rules {
         font-size: 24px;
+    }
+
+    #myvideo {
+        min-height: 400px;
     }
 
     /* SOCIAL */
@@ -403,13 +391,10 @@ body {
     .rule {
         font-size: 20px;
     }
-    .tvideo {
-        height: 200px;
-    }
 
     /* SUBSCRIBE */
-    .btnn {
-        font-size: 14px;
+    section .translate-middle {
+        flex-direction: column;
     }
 
     /* SOCIAL */
@@ -437,13 +422,35 @@ body {
     }
 
     /* RULES */
-    .tvideo {
-        height: 163px;
-    }
     .rules {
         font-size: 22px;
     }
     .rule {
         font-size: 18px;
+    }
+}
+
+@media all and (max-width: 400px) {
+    .custom-col {
+        width: 100%;
+    }
+
+    .col-tramsform {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .head {
+        font-size: 25px;
+    }
+}
+
+@media all and (max-width: 335px) {
+    section .translate-middle {
+        flex-direction: column;
+    }
+
+    .head {
+        font-size: 21px;
     }
 }
